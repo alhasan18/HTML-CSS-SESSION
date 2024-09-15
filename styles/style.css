@@ -20,6 +20,8 @@ body{
   font-weight: 400;
   padding-top: 60px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  /* word spacing = word e space dey
+     letter spacing = letter e space dey */
   word-spacing: 40px;
   letter-spacing: 20px;
 }
