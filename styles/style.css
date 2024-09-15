@@ -15,6 +15,7 @@ body{
   height: 100vh;
   /* background-size: cover; means background e pictre full cover hoye jabe */
   background-size: cover; 
+  clip-path: polygon(30% 0%, 70% 0%, 91% 10%, 100% 35%, 100% 100%, 0 100%, 0 37%, 9% 9%);
 }
 
 .hero h1{
@@ -35,6 +36,7 @@ body{
   background-color: rgb(117, 116, 50);
   padding: 60px;
   border: 15px solid wheat;
+  background: linear-gradient(45deg, pink , rgb(170, 170, 221));
 }
 .article h2 , #cow-type h2{
   text-align: center;
@@ -55,7 +57,7 @@ body{
   width: 80%;   
   margin: 60px auto;
   padding: 60px;
-  
+  background: linear-gradient(45deg, gray,rgb(175, 212, 175));
 }
 .cow-images{
   display: flex;
