@@ -1,3 +1,25 @@
-h1{
-  color: red;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+   background-color: black;
+   color: white;
+}
+.hero{
+  background-image: url('../images/cow.jpg');
+  height: 100vh;
+  /* background-size: cover; means background e pictre full cover hoye jabe */
+  background-size: cover; 
+}
+
+.hero h1{
+  font-size: 100px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 40px;
+  letter-spacing: 20px;
 }
