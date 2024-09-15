@@ -36,7 +36,7 @@ body{
   padding: 60px;
   border: 15px solid wheat;
 }
-.article h2{
+.article h2 , #cow-type h2{
   text-align: center;
   font-size: 48px;
   border-bottom: 2px solid wheat;
@@ -49,4 +49,21 @@ body{
   line-height: 2em; 
   /* em means parent er height nibe.eikhane 2em means text height er double height gap dibe */
   /* inline element height width nite parena */
+}
+#cow-type{
+  
+  width: 80%;   
+  margin: 60px auto;
+  padding: 60px;
+  
+}
+.cow-images{
+  display: flex;
+  gap: 20px;
+}
+.cow-images div{
+  min-width: 300px;
+}
+.cow-images img{
+  width: 100%;
 }
